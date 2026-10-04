@@ -1,0 +1,38 @@
+{
+  "name": "browser-bulk-image-tools",
+  "version": "0.1.0",
+  "description": "A browser-side batch image processing engine for resize, crop, rotate, flip, watermark, compress, and convert workflows.",
+  "type": "module",
+  "sideEffects": false,
+  "files": ["dist", "src", "README.md", "LICENSE"],
+  "types": "./dist/index.d.ts",
+  "homepage": "https://bulkimage.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WanderZil/browser-bulk-image-tools.git"
+  },
+  "bugs": "https://github.com/WanderZil/browser-bulk-image-tools/issues",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  },
+  "keywords": [
+    "browser-image-tools",
+    "bulk-image-processing",
+    "batch-image-processing",
+    "image-resize",
+    "image-crop",
+    "image-compression",
+    "image-converter",
+    "client-side-image-processing"
+  ],
+  "license": "MIT"
+}
